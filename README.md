@@ -60,7 +60,7 @@ Pour exécuter l'application, assurez-vous d'avoir configuré une base de donné
 
 ## Auteur
 
-Ce projet a été développé par Hamza DAMIRI.
+Ce projet a été développé par **HAMZA DAMIRI (Dev7HD)** - [GitHub Profile](https://github.com/Dev7HD).
 
 ---
 
