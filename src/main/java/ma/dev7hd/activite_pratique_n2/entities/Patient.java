@@ -17,6 +17,7 @@ public class Patient {
     //Q3: Création de l'entité JPA Patient
     private Long id;
     private String nom;
+    @Temporal(TemporalType.DATE)
     private Date dateNaissance;
     private int score;
     private boolean malade;
