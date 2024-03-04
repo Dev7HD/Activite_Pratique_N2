@@ -1,16 +1,12 @@
 package ma.dev7hd.activite_pratique_n2.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Type;
-
+import lombok.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "PATIENTS")
-@Data @NoArgsConstructor @AllArgsConstructor
+@NoArgsConstructor @AllArgsConstructor @Getter @Setter @ToString
 public class Patient {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 
