@@ -14,15 +14,12 @@ import java.util.List;
 @SpringBootApplication
 public class ActivitePratiqueN2Application {
 
-    @Autowired
-    private PatientRepository patientRepository;
-
     public static void main(String[] args) {
         SpringApplication.run(ActivitePratiqueN2Application.class, args);
     }
 
     @Bean
-    CommandLineRunner start() {
+    CommandLineRunner start(PatientRepository patientRepository) {
         return args -> {
             //Q6-1: L'ajout des patients
             patientRepository.save(new Patient(null,"Bob",new Date(1987-1900,2,14),142,false));
